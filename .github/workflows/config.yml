@@ -16,4 +16,4 @@ jobs:
       with:
           version: '8.0.1'
           projectPath: '$'
-          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/Simple Test Suite Collection" -apiKey= $ --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -testSuiteCollectionPath="./Tests/OpenGoogle.tc" -apiKey= $ --config -webui.autoUpdateDrivers=true'
